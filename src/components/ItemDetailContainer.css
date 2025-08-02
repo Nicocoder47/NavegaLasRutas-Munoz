@@ -1,0 +1,44 @@
+.item-detail-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  background: #fff8f8;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.item-detail-image img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.item-detail-info h2 {
+  font-size: 2rem;
+  color: #3a0d11;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6e0f1f;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.detail-loading,
+.detail-error {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6e0f1f;
+}

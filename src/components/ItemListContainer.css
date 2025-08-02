@@ -1,0 +1,35 @@
+.itemlist-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.itemlist-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3a0d11;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.error-msg {
+  color: #c4001d;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skeleton-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.skeleton-card {
+  width: 240px;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
