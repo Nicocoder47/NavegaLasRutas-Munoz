@@ -27,7 +27,7 @@ const productos = [
     descripcion: "Super Tuscan italiano con Cabernet Sauvignon, elegante, profundo y persistente.",
     maridaje: "Pastas con ragú, carnes braseadas y embutidos gourmet.",
     stock: 6,
-    imagen: "/img/Sassicaia 2016.png"
+    imagen: "/img/sassicaia2016.png"
   },
   {
     id: "4",
